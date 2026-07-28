@@ -1,0 +1,45 @@
+<h2>Reactive Student Registration</h2>
+
+<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+
+  <label>Name</label><br>
+
+  <input
+    type="text"
+    formControlName="name">
+
+  <br><br>
+
+  <label>Email</label><br>
+
+  <input
+    type="email"
+    formControlName="email">
+
+  <br><br>
+
+  <label>Course</label><br>
+
+  <select formControlName="course">
+
+    <option value="">Select Course</option>
+
+    <option>Angular</option>
+    <option>Java</option>
+    <option>Spring Boot</option>
+    <option>React</option>
+    <option>SQL</option>
+
+  </select>
+
+  <br><br>
+
+  <button
+    type="submit"
+    [disabled]="registrationForm.invalid">
+
+    Submit
+
+  </button>
+
+</form>
