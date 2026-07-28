@@ -1,0 +1,20 @@
+.container {
+    margin: 40px;
+    font-family: Arial;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 12px;
+}
+
+input {
+    margin-left: 20px;
+    width: 120px;
+    height: 25px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
