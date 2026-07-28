@@ -1,0 +1,29 @@
+<h2>Available Courses</h2>
+
+<div *ngIf="showCourses; else noCourses">
+
+  <div *ngFor="let c of courses">
+
+    <h3>{{ c.name | uppercase }}</h3>
+
+    <p>Course Code : {{ c.code }}</p>
+
+    <p>Credits : {{ c.credits }}</p>
+
+    <p>Duration : {{ c.duration }} Days</p>
+
+    <p>Fee : {{ c.fee | currency:'INR' }}</p>
+
+    <p>Start Date : {{ c.startDate | date:'dd/MM/yyyy' }}</p>
+
+    <hr>
+
+  </div>
+
+</div>
+
+<ng-template #noCourses>
+
+  <p>No courses available.</p>
+
+</ng-template>
