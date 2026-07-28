@@ -1,0 +1,12 @@
+<div class="course-card">
+  <h3>{{ course.name }}</h3>
+
+  <p><b>Course Code:</b> {{ course.code }}</p>
+  <p><b>Credits:</b> {{ course.credits }}</p>
+  <p><b>Duration:</b> {{ course.duration }} Days</p>
+  <p><b>Fee:</b> ₹{{ course.fee }}</p>
+
+  <button (click)="enroll()">Enroll</button>
+
+  <hr>
+</div>
