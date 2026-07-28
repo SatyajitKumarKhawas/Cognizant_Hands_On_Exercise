@@ -1,0 +1,23 @@
+<h1>{{ portalName }}</h1>
+
+<p>Welcome to the Student Course Portal.</p>
+
+<button
+  [disabled]="!isPortalActive"
+  (click)="onEnrollClick()">
+  Enroll Now
+</button>
+
+<p>{{ message }}</p>
+
+<hr>
+
+<label>Search Course:</label>
+
+<br><br>
+
+<input
+  type="text"
+  [(ngModel)]="searchTerm">
+
+<p>Searching for: {{ searchTerm }}</p>
