@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "code": "ANG101",
+      "credits": 4,
+      "duration": 45,
+      "fee": 12000
+    },
+    {
+      "id": 2,
+      "name": "Java",
+      "code": "JAVA201",
+      "credits": 3,
+      "duration": 60,
+      "fee": 15000
+    },
+    {
+      "id": 3,
+      "name": "Spring Boot",
+      "code": "SPR301",
+      "credits": 4,
+      "duration": 40,
+      "fee": 18000
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "code": "RE101",
+      "credits": 2,
+      "duration": 35,
+      "fee": 10000
+    },
+    {
+      "id": 5,
+      "name": "SQL",
+      "code": "SQL101",
+      "credits": 3,
+      "duration": 30,
+      "fee": 8000
+    }
+  ]
+}
